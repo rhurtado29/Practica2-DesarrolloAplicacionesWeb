@@ -1,0 +1,129 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 6, 2024, 9:38:42 PM
+    Author     : rebecahurtado
+*/
+
+:root{
+    --azul: #050C9C;
+    --turquesa: #3572EF;
+    --celeste: #3ABEF9;
+    --celesteClaro: #A7E6FF;
+}
+body{
+    padding: 80px 20px 0;
+}
+.header{
+    position: fixed;
+    background-color: var(--azul);
+    top:0;
+    left: 0;
+    height:80px;
+    width:100%;   
+        
+}
+
+.section{
+    overflow-y: scroll;
+    position:absolute;
+    top:80px;
+    
+    bottom: 20px;
+    width: 100%
+}
+
+.section img{
+    width: 300px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 90px;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin:0 auto;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu{
+    display:flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+  font-size:18px;
+  margin: 0 10px;
+  line-height: 80px;
+  width: max-content;
+        
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 4px;
+    
+}
+.nav-menu-link:hover{
+    background-color: var(--turquesa);
+    transition: 0.5s;
+    font-weight: bold;
+    
+    
+}
+.footer{
+    position: fixed;
+    left:0;
+    bottom: 0;
+    height: 10px;
+    width:100%;
+    text-align: center;
+   
+    background-color: var(--azul);
+    color:white;
+    padding: 20px;
+    
+}
+
+.h2-index{
+    text-align: center;
+}
+
+table{
+    width:50%;
+    align-content: center;
+    
+   color: var(--turquesa);
+}
+
+thead{
+    background-color: var(--celeste);
+    color: var(--azul);
+}
+.h2ranking{
+   
+    
+    color: var(--azul)
+}
+.img-katie img{
+
+    padding:10px;
+   
+    border-radius: 20px;
+    
+}
+
+.img-katie figcaption{
+    text-justify:auto;
+    color:var(--azul);
+    padding:0 10px;
+}
