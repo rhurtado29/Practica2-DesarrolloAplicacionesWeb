@@ -127,3 +127,62 @@ thead{
     color:var(--azul);
     padding:0 10px;
 }
+.formulario{
+    background-color: var(--celesteClaro);
+    width: min( 60rem, 100%); /*Utiliza el valor mas pequeno, asigna el ancho*/
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius:1rem;
+
+}
+
+ 
+
+.formulario fieldset{
+    border: none;
+    
+}
+.formulario legend{
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform:uppercase;
+    font-weight: 700;
+    margin-top: 2rem;
+    color: var(--azul);
+}
+.campo{
+    margin-bottom: 1rem;
+}
+
+.campo label{
+    color: var(--azul);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    display: block;
+
+}
+.campo textarea{
+    height: 15rem;
+}
+
+.input-text{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: .5rem;
+}
+.boton{
+    background-color: var(--azul);
+    color: var(--celesteClaro);
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+    border: none;
+}
